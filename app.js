@@ -82,8 +82,7 @@ if (answer2 === "Y" || answer2 === "YES"){
         console.log(user + " replied " + foodAnswer);
         alert("That's not one of the choices! Guess again");
         var foodAnswer = prompt("Which do you think is my favorite food? Pizza, chicken strips or french fries?").toUpperCase();
-
-    }
+      }
 }
 
   var answer4 = prompt("Wait!!! One last BONUS question. How old do you think I am?");
