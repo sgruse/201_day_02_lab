@@ -92,22 +92,22 @@ var response4 = false;
 while(response4 === false) {
   var answer4 = prompt("Wait!!! One last BONUS question. How old do you think I am?");
   // answer4 = parseInt(answer4);
-    if(parseInt(answer4) == 26) {
+    if(parseInt(answer4) === 26) {
 
-      res4.textContent = "Correct, "+ user + "I am 26!";
+      res4.textContent = "Correct, " + user + " I am 26!";
       response4 = true;
     }
-    else if(parseInt(answer4) < 26){
-      res4.textContent = "Wrong, I'm younger than that";
+    else if(parseInt(answer4 < 26)) {
+      res4.textContent = "Wrong, I'm older than that";
       response4 = false;
-answer4 = parseInt(prompt("You're getting closer, try again"));
+// answer4 = parseInt(prompt("You're getting closer, try again"));
 
   }
-    else {
+    else if (parseInt(answer4 > 26)) {
     // alert("Wrong, I'm older than that");
-    res4.textContent = "Wrong, I'm older than that";
+    res4.textContent = "Wrong, I'm younger than that";
     response4 = false;
-    answer4 = parseInt(prompt("You're getting closer, try again"));
+    answer4 = parseInt(alert("You're getting closer, try again"));
 }
 }
   }
