@@ -8,3 +8,6 @@ For this lab I created three questions with a bonus question.  Within this lab I
 
 updated: 1/8/16 (Luc):
 added functions in an array, called by a for loop. Left number guessing alone and switch statement alone.
+
+update half an hour later: 1/8/16 (Luc)
+added css colors, and added links at bottom of page 
