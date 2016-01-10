@@ -3,13 +3,14 @@ var res1 = document.getElementById('resultOne');
 var res2 = document.getElementById('resultTwo');
 var res3 = document.getElementById('resultThree');
 var res4 = document.getElementById('resultFour');
-var userName = document.getElementById('newUser');
 var counter = 0;
-
+var newUser = document.getElementById('firstName');
 var user = prompt('Welcome to my guessing game, what is your name?');
+newUser.textContent = 'Hello ' + user + '!';
 alert("Hello " + user + ", I'm going to ask you a few questions now and see how well you know me");
 console.log('The user\'s name is ' + user);
-userName.textContent = 'Hello ' + user + '!';
+
+
 //Qestion One array data
 var questData = [['Do you think baseball is my favorite sport?', 'YES', 'Y', 'I\'m sorry ' + user + ' but that\'s not correct football is my favorite sport', 'N', 'NO', 'You\'re right! My favorite sport is football. Great answer!', res1],
 //Question Two array data
