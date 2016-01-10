@@ -1,8 +1,10 @@
+* { background-color: 909090;
+  }
+
 .correct {
   color: green;
 }
+
 .wrong {
   color: red;
 }
-*
-{background-color: 909090;}
